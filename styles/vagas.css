@@ -1,0 +1,96 @@
+.anuncio__vagas {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    justify-content: center;
+    
+}
+.container__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.anuncio__vagas__link {
+    background-color: var(--vermelho-claro-bg);
+    text-decoration: none;
+    color: var(--vermelho-escuro);
+    padding: 4px 12px;
+    border-radius: 16px;
+   
+}
+.anuncio__vagas__texto-destaque {
+    font-size: 36px;
+    color: var(--cinza-escuro);
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.72px;
+    
+}
+.anuncio__vagas__texto-paragrafo {
+    color: var(--cinza-claro);
+    font-size: 20px;
+    line-height: 30px;
+}
+.anuncio__imagem-team {
+    display: flex;
+    align-items: center;
+    margin: 0 6em 4em 6em;
+   
+
+}
+.container__vagas {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    padding: 0 2em;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 4em;
+    
+}
+.titulo__area-vagas {
+    display: flex;
+    align-self: stretch;
+    padding-bottom: 2em;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.job__post {
+    display: flex;
+    padding: 24px 24px 28px 24px;
+    width: 60em;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+    border-radius: 16px;
+    border: 1px solid var(--cinza-border);
+}
+.conteudo__vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.titulo__vagas {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    align-self: stretch;
+    color: var(--cinza-escuro);
+}
+.resumo__vagas {
+    display: flex;
+    gap: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--cinza-claro)
+
+}
